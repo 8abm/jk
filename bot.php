@@ -14,7 +14,7 @@ error_reporting(0);
 
 ob_implicit_flush(1);
 
-$token = "";# توكنك تمام
+$token = "6127627928:AAFUVniJndXKzQnSeIXbrIGFg49j0B9ZaaM";# توكنك تمام
 
 define('API_KEY',$token);
 
