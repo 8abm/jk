@@ -2,8 +2,6 @@
 
 ob_start(); 
 
-$ar = array("a","A","b","B","c","C","d","D","e","E","f","F","g","G","h","H","i","I","j","J","k","K","l",'L','m','M','n',"N",'o','O','p','P','q','Q','r','R','S','s','t','T','_');
-
 flush();
 
 ob_start();
@@ -17,6 +15,7 @@ ob_implicit_flush(1);
 $token = "6127627928:AAFUVniJndXKzQnSeIXbrIGFg49j0B9ZaaM";# توكنك تمام
 
 define('API_KEY',$token);
+
 $update = json_decode(file_get_contents('php://input'));
 
 $message = $update->message;
@@ -41,11 +40,17 @@ if($text == "/start"){
 
 while(true){
 
-	$rand1 = array_rand($ar, 1);    $rand2 = array_rand($ar, 1);
+    $ar = array("a","A","b","B","c","C","d","D","e","E","f","F","g","G","h","H","i","I","j","J","k","K","l",'L','m','M','n',"N",'o','O','p','P','q','Q','r','R','S','s','t','T','_');
+
+    $rand1 = array_rand($ar, 1);
+
+    $rand2 = array_rand($ar, 1);
 
     $rand3 = array_rand($ar, 1);
 
     $rand4 = array_rand($ar, 1);
+
+    $rand5 = array_rand($ar, 1);
 
     $a1 = $ar[$rand1];
 
@@ -61,7 +66,7 @@ while(true){
 
     $ded = file_get_contents($api); 
 
-    if ($ded != "True"){
+    if ($ded != "False"){
 
         bot('sendmessage',[
 
