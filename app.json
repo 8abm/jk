@@ -1,5 +1,26 @@
-
 {
+
+    "name": "قدو ",
+
+    "description": "User for tiktok",
+
+    "stack": "container",
+
+    "repository": "https://github.com/8abm/jk",
+
+    "keywords": [
+
+        "python",
+
+        "chatbot",
+
+        "telegrambot"
+
+    ],
+
+    "website": "https://github.com/bhthh/ah",
+
+    "env": {
         "BOT_USERNAME": {
 
             "description": "يوزر البوت",
