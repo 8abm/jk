@@ -1,1 +1,15 @@
 
+{
+        "BOT_USERNAME": {
+
+            "description": "يوزر البوت",
+
+            "value": "",
+
+            "required": true
+
+        }
+
+    }
+
+}
