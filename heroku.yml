@@ -10,4 +10,4 @@ run:
 
     command:
 
-      - python3 bot user.py
+      - python3 botuser.py
