@@ -1,3 +1,7 @@
+import os
+os.system("pip install requests")
+os.system("pip install telebot")
+os.system("pip install Pytelegrambotapi==4")
 import requests,random
 import telebot
 myid = str("1934060947")
