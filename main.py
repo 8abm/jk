@@ -5,7 +5,7 @@ os.system("pip install Pytelegrambotapi==4")
 import requests,random
 import telebot
 myid = str("1934060947")
-token = '2007239629:AAFYeAeDAgwazm3UCCQ9KZlrsx54ssEYCa4'
+token = ''
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['hunt'])
 def user(message):
