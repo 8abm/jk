@@ -22,9 +22,8 @@ def info(message):
             user2 = str("".join(random.choice('qwertyuio.plkjh_gfdsa_mnbvc.xz')for x in range(1)))
             user3 = str("".join(random.choice('abcdef_ghijnklmnop.qrstuvwxyz1._2345_678.90')for x in range(1)))
             user4 = str("".join(random.choice('qwert_yui_oplkj_hgfdsa_mnbvcxz12345678_90')for x in range(1)))
-            userr = user1+user2+user3+user4
-            userr6 = user1+user2+"."+user4
-            user = userr
+            user = user1+user2+user3+user4
+            
             req = requests.get(f"https://www.tiktok.com/@{user}",headers = {
         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         'accept-encoding': 'gzip, deflate',
